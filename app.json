@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "SmartRoll",
+    "slug": "smartroll",
+    "version": "1.0.0",
+    "scheme": "smartroll",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a237e"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "ios": {
+      "bundleIdentifier": "com.smartroll.app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SmartRoll needs your location to verify you are inside the classroom before marking attendance.",
+        "NSFaceIDUsageDescription": "SmartRoll uses Face ID to confirm your identity before recording attendance.",
+        "NSCameraUsageDescription": "SmartRoll needs camera access to take your profile selfie and verify your identity when marking attendance."
+      }
+    },
+    "android": {
+      "package": "com.smartroll.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#1a237e"
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-local-authentication",
+      "expo-secure-store",
+      "expo-image-picker",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/favicon.png",
+          "color": "#1a237e"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "885aec06-1097-4a76-bce7-7f034622b937"
+      }
+    },
+    "owner": "wakhongolas-organization"
+  }
+}

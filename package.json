@@ -1,0 +1,57 @@
+{
+  "name": "smartroll",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest --watchAll=false"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "expo": "~52.0.0",
+    "expo-asset": "~11.0.5",
+    "expo-camera": "~16.0.18",
+    "expo-constants": "~17.0.0",
+    "expo-crypto": "~14.0.2",
+    "expo-device": "~7.0.3",
+    "expo-image-picker": "~16.0.0",
+    "expo-linking": "~7.0.5",
+    "expo-local-authentication": "~15.0.0",
+    "expo-location": "~18.0.0",
+    "expo-notifications": "~0.29.14",
+    "expo-router": "~4.0.0",
+    "expo-secure-store": "~14.0.0",
+    "expo-splash-screen": "^0.29.24",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-svg": "~15.8.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@testing-library/react-native": "^12.4.0",
+    "@types/jest": "^29.5.0",
+    "@types/react": "~18.3.0",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "fast-check": "^3.19.0",
+    "jest": "^29.7.0",
+    "jest-expo": "~52.0.0",
+    "pg": "^8.20.0",
+    "typescript": "^5.3.0"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ]
+  }
+}

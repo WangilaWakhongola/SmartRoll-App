@@ -1,0 +1,962 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepIndicator renders correctly in biometric-active state 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        GPS Location
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Verified inside classroom
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Identity Selfie
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Face matched ✓
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#E8F5EE",
+            "borderColor": "#1A6641",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginTop": 6,
+            "opacity": 1,
+            "paddingHorizontal": 14,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#1A237E",
+                "fontSize": 12,
+                "fontWeight": "500",
+              },
+              {
+                "color": "#1A6641",
+              },
+            ]
+          }
+        >
+          ✓ Face Matched — Retake
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          {
+            "backgroundColor": "#1A237E",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Biometric
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Fingerprint / Face ID on sign
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StepIndicator renders correctly in done state 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        GPS Location
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Verified inside classroom
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Identity Selfie
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Face matched ✓
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#E8F5EE",
+            "borderColor": "#1A6641",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginTop": 6,
+            "opacity": 1,
+            "paddingHorizontal": 14,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#1A237E",
+                "fontSize": 12,
+                "fontWeight": "500",
+              },
+              {
+                "color": "#1A6641",
+              },
+            ]
+          }
+        >
+          ✓ Face Matched — Retake
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Biometric
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Confirmed ✓
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StepIndicator renders correctly in gps-active state 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          {
+            "backgroundColor": "#1A237E",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        GPS Location
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Waiting for GPS...
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Identity Selfie
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Take a selfie to verify identity
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Biometric
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Fingerprint / Face ID on sign
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StepIndicator renders correctly in selfie-active state 1`] = `
+<View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          {
+            "backgroundColor": "#1A6641",
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        GPS Location
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Verified inside classroom
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          {
+            "backgroundColor": "#1A237E",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Identity Selfie
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Take a selfie to verify identity
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#E8EDF8",
+            "borderRadius": 8,
+            "marginTop": 6,
+            "opacity": 1,
+            "paddingHorizontal": 14,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#1A237E",
+              "fontSize": 12,
+              "fontWeight": "500",
+            }
+          }
+        >
+          📷  Take Selfie
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+        "marginBottom": 14,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 5,
+            "flexShrink": 0,
+            "height": 10,
+            "marginTop": 4,
+            "width": 10,
+          },
+          false,
+          false,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 9,
+            "letterSpacing": 0.8,
+            "marginBottom": 2,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Biometric
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#1A1714",
+              "fontSize": 12,
+              "fontWeight": "500",
+            },
+            false,
+          ]
+        }
+      >
+        Fingerprint / Face ID on sign
+      </Text>
+    </View>
+  </View>
+</View>
+`;

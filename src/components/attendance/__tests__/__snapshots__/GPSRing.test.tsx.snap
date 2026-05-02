@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GPSRing renders correctly when inside=false (red static state) 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 10,
+      },
+      {
+        "height": 90,
+        "width": 90,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#8B1A1A",
+        "borderRadius": 38,
+        "borderWidth": 1.5,
+        "height": 76,
+        "opacity": 0.8,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 76,
+      }
+    }
+  />
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#8B1A1A",
+        "borderRadius": 38,
+        "borderWidth": 1.5,
+        "height": 76,
+        "opacity": 0.6,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 76,
+      }
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1.5,
+          "justifyContent": "center",
+        },
+        {
+          "borderColor": "#8B1A1A",
+          "borderRadius": 29,
+          "height": 58,
+          "width": 58,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 2,
+            "borderBottomRightRadius": 2,
+            "justifyContent": "center",
+          },
+          {
+            "backgroundColor": "#8B1A1A",
+            "borderRadius": 16,
+            "height": 40,
+            "width": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+            {
+              "borderRadius": 5,
+              "height": 10,
+              "width": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GPSRing renders correctly when inside=true (green pulsing state) 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 10,
+      },
+      {
+        "height": 90,
+        "width": 90,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#1A6641",
+        "borderRadius": 38,
+        "borderWidth": 1.5,
+        "height": 76,
+        "opacity": 0.8,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 76,
+      }
+    }
+  />
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#1A6641",
+        "borderRadius": 38,
+        "borderWidth": 1.5,
+        "height": 76,
+        "opacity": 0.6,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 76,
+      }
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1.5,
+          "justifyContent": "center",
+        },
+        {
+          "borderColor": "#1A6641",
+          "borderRadius": 29,
+          "height": 58,
+          "width": 58,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 2,
+            "borderBottomRightRadius": 2,
+            "justifyContent": "center",
+          },
+          {
+            "backgroundColor": "#1A6641",
+            "borderRadius": 16,
+            "height": 40,
+            "width": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+            {
+              "borderRadius": 5,
+              "height": 10,
+              "width": 10,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GPSRing renders correctly with custom size when inside=false 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 10,
+      },
+      {
+        "height": 60,
+        "width": 60,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#8B1A1A",
+        "borderRadius": 25,
+        "borderWidth": 1.5,
+        "height": 51,
+        "opacity": 0.8,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 51,
+      }
+    }
+  />
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#8B1A1A",
+        "borderRadius": 25,
+        "borderWidth": 1.5,
+        "height": 51,
+        "opacity": 0.6,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 51,
+      }
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1.5,
+          "justifyContent": "center",
+        },
+        {
+          "borderColor": "#8B1A1A",
+          "borderRadius": 19,
+          "height": 39,
+          "width": 39,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 2,
+            "borderBottomRightRadius": 2,
+            "justifyContent": "center",
+          },
+          {
+            "backgroundColor": "#8B1A1A",
+            "borderRadius": 11,
+            "height": 27,
+            "width": 21,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+            {
+              "borderRadius": 3,
+              "height": 7,
+              "width": 7,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GPSRing renders correctly with custom size when inside=true 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": 10,
+      },
+      {
+        "height": 120,
+        "width": 120,
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#1A6641",
+        "borderRadius": 51,
+        "borderWidth": 1.5,
+        "height": 101,
+        "opacity": 0.8,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 101,
+      }
+    }
+  />
+  <View
+    collapsable={false}
+    style={
+      {
+        "borderColor": "#1A6641",
+        "borderRadius": 51,
+        "borderWidth": 1.5,
+        "height": 101,
+        "opacity": 0.6,
+        "position": "absolute",
+        "transform": [
+          {
+            "scale": 0.8,
+          },
+        ],
+        "width": 101,
+      }
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1.5,
+          "justifyContent": "center",
+        },
+        {
+          "borderColor": "#1A6641",
+          "borderRadius": 39,
+          "height": 77,
+          "width": 77,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderBottomLeftRadius": 2,
+            "borderBottomRightRadius": 2,
+            "justifyContent": "center",
+          },
+          {
+            "backgroundColor": "#1A6641",
+            "borderRadius": 21,
+            "height": 53,
+            "width": 43,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#FFFFFF",
+            },
+            {
+              "borderRadius": 7,
+              "height": 13,
+              "width": 13,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

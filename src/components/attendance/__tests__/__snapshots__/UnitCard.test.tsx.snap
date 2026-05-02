@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnitCard snapshots missed — shows "Missed" badge, no button 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "rgba(0,0,0,0.08)",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "marginBottom": 10,
+        "padding": 14,
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E8EDF8",
+          "borderRadius": 12,
+          "flexShrink": 0,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 11,
+            "fontWeight": "500",
+          }
+        }
+      >
+        CSC
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "letterSpacing": 0.5,
+          }
+        }
+      >
+        CSC101
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 13,
+            "fontWeight": "500",
+            "marginTop": 1,
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "marginTop": 2,
+          }
+        }
+      >
+        09:00 – 10:00
+         · 
+        1.2345, 6.7890
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 20,
+            "paddingHorizontal": 9,
+            "paddingVertical": 3,
+          },
+          {
+            "backgroundColor": "#F5E8E8",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 10,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#8B1A1A",
+            },
+          ]
+        }
+      >
+        Missed
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UnitCard snapshots pending — shows "Sign Now" badge and "Mark Attendance" button 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "rgba(0,0,0,0.08)",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "marginBottom": 10,
+        "padding": 14,
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E8EDF8",
+          "borderRadius": 12,
+          "flexShrink": 0,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 11,
+            "fontWeight": "500",
+          }
+        }
+      >
+        CSC
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "letterSpacing": 0.5,
+          }
+        }
+      >
+        CSC101
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 13,
+            "fontWeight": "500",
+            "marginTop": 1,
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "marginTop": 2,
+          }
+        }
+      >
+        09:00 – 10:00
+         · 
+        1.2345, 6.7890
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 20,
+            "paddingHorizontal": 9,
+            "paddingVertical": 3,
+          },
+          {
+            "backgroundColor": "#E0E8F0",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 10,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1a237e",
+            },
+          ]
+        }
+      >
+        Sign Now
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#1a237e",
+        "borderRadius": 10,
+        "marginTop": 12,
+        "opacity": 1,
+        "paddingVertical": 11,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#fff",
+          "fontSize": 13,
+          "fontWeight": "500",
+        }
+      }
+    >
+      Mark Attendance
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UnitCard snapshots signed — shows "Signed ✓" badge, no button, green left border 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "rgba(0,0,0,0.08)",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "marginBottom": 10,
+        "padding": 14,
+      },
+      {
+        "borderLeftColor": "#1A6641",
+        "borderLeftWidth": 3,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E8EDF8",
+          "borderRadius": 12,
+          "flexShrink": 0,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 11,
+            "fontWeight": "500",
+          }
+        }
+      >
+        CSC
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "letterSpacing": 0.5,
+          }
+        }
+      >
+        CSC101
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 13,
+            "fontWeight": "500",
+            "marginTop": 1,
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "marginTop": 2,
+          }
+        }
+      >
+        09:00 – 10:00
+         · 
+        1.2345, 6.7890
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 20,
+            "paddingHorizontal": 9,
+            "paddingVertical": 3,
+          },
+          {
+            "backgroundColor": "#E8F5EE",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 10,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#1A6641",
+            },
+          ]
+        }
+      >
+        Signed ✓
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`UnitCard snapshots upcoming — shows "Upcoming" badge, no button 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "rgba(0,0,0,0.08)",
+        "borderRadius": 16,
+        "borderWidth": 1,
+        "marginBottom": 10,
+        "padding": 14,
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 10,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E8EDF8",
+          "borderRadius": 12,
+          "flexShrink": 0,
+          "height": 40,
+          "justifyContent": "center",
+          "width": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 11,
+            "fontWeight": "500",
+          }
+        }
+      >
+        CSC
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "letterSpacing": 0.5,
+          }
+        }
+      >
+        CSC101
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 13,
+            "fontWeight": "500",
+            "marginTop": 1,
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 10,
+            "marginTop": 2,
+          }
+        }
+      >
+        09:00 – 10:00
+         · 
+        1.2345, 6.7890
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderRadius": 20,
+            "paddingHorizontal": 9,
+            "paddingVertical": 3,
+          },
+          {
+            "backgroundColor": "#E8EDF8",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 10,
+              "fontWeight": "500",
+            },
+            {
+              "color": "#6B6560",
+            },
+          ]
+        }
+      >
+        Upcoming
+      </Text>
+    </View>
+  </View>
+</View>
+`;

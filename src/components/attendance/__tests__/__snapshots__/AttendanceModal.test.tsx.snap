@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttendanceModal snapshots Done state: step=done 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(0,0,0,0.35)",
+        "flex": 1,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E8EEFF",
+          "borderTopLeftRadius": 24,
+          "borderTopRightRadius": 24,
+          "padding": 24,
+          "paddingBottom": 40,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 2,
+            "height": 4,
+            "marginBottom": 18,
+            "width": 40,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 17,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 12,
+            "marginBottom": 18,
+          }
+        }
+      >
+        CS101
+         · 
+        1.2345, 6.7890
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginBottom": 12,
+          }
+        }
+      >
+        <View
+          testID="gps-ring-inside"
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              {
+                "color": "#1A6641",
+              },
+            ]
+          }
+        >
+          Inside classroom (5m)
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          testID="step-indicator"
+        />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#E8F5EE",
+            "borderRadius": 14,
+            "paddingVertical": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#1A6641",
+              "fontSize": 16,
+              "fontWeight": "500",
+            }
+          }
+        >
+          ✓ Attendance Signed!
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "opacity": 1,
+            "paddingVertical": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#6B6560",
+              "fontSize": 14,
+            }
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    testID="selfie-capture"
+  />
+</Modal>
+`;
+
+exports[`AttendanceModal snapshots GPS-ok state: coords set, gpsOk=true 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(0,0,0,0.35)",
+        "flex": 1,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E8EEFF",
+          "borderTopLeftRadius": 24,
+          "borderTopRightRadius": 24,
+          "padding": 24,
+          "paddingBottom": 40,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 2,
+            "height": 4,
+            "marginBottom": 18,
+            "width": 40,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 17,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 12,
+            "marginBottom": 18,
+          }
+        }
+      >
+        CS101
+         · 
+        1.2345, 6.7890
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginBottom": 12,
+          }
+        }
+      >
+        <View
+          testID="gps-ring-inside"
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              {
+                "color": "#1A6641",
+              },
+            ]
+          }
+        >
+          Inside classroom (13m)
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          testID="step-indicator"
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#1A237E",
+            "borderRadius": 14,
+            "opacity": 0.45,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 15,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Sign Attendance
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "opacity": 1,
+            "paddingVertical": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#6B6560",
+              "fontSize": 14,
+            }
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    testID="selfie-capture"
+  />
+</Modal>
+`;
+
+exports[`AttendanceModal snapshots GPS-waiting state: coords=null 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(0,0,0,0.35)",
+        "flex": 1,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E8EEFF",
+          "borderTopLeftRadius": 24,
+          "borderTopRightRadius": 24,
+          "padding": 24,
+          "paddingBottom": 40,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 2,
+            "height": 4,
+            "marginBottom": 18,
+            "width": 40,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 17,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 12,
+            "marginBottom": 18,
+          }
+        }
+      >
+        CS101
+         · 
+        1.2345, 6.7890
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginBottom": 12,
+          }
+        }
+      >
+        <View
+          testID="gps-ring-outside"
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              {
+                "color": "#6B6560",
+              },
+            ]
+          }
+        >
+          Getting location…
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          testID="step-indicator"
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#1A237E",
+            "borderRadius": 14,
+            "opacity": 0.45,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 15,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Sign Attendance
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "opacity": 1,
+            "paddingVertical": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#6B6560",
+              "fontSize": 14,
+            }
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    testID="selfie-capture"
+  />
+</Modal>
+`;
+
+exports[`AttendanceModal snapshots Selfie-pending state: gpsOk=true, selfieOk=false, step=selfie 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(0,0,0,0.35)",
+        "flex": 1,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E8EEFF",
+          "borderTopLeftRadius": 24,
+          "borderTopRightRadius": 24,
+          "padding": 24,
+          "paddingBottom": 40,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.08)",
+            "borderRadius": 2,
+            "height": 4,
+            "marginBottom": 18,
+            "width": 40,
+          }
+        }
+      />
+      <Text
+        style={
+          {
+            "color": "#1A1714",
+            "fontSize": 17,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Computer Science
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#6B6560",
+            "fontSize": 12,
+            "marginBottom": 18,
+          }
+        }
+      >
+        CS101
+         · 
+        1.2345, 6.7890
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginBottom": 12,
+          }
+        }
+      >
+        <View
+          testID="gps-ring-inside"
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 13,
+                "fontWeight": "500",
+                "textAlign": "center",
+              },
+              {
+                "color": "#1A6641",
+              },
+            ]
+          }
+        >
+          Inside classroom (8m)
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          testID="step-indicator"
+        />
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#1A237E",
+            "borderRadius": 14,
+            "opacity": 0.45,
+            "paddingVertical": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 15,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Sign Attendance
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "opacity": 1,
+            "paddingVertical": 14,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#6B6560",
+              "fontSize": 14,
+            }
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    testID="selfie-capture"
+  />
+</Modal>
+`;
